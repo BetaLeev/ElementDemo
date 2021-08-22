@@ -7,7 +7,7 @@
     <img src="./assets/3.jpg" />
     <img src="./assets/4.jpg" />
     <img src="./assets/5.jpg" />
-
+    <base-table />
     <el-dialog title="add a category" :visible.sync="addDialog">
       <el-form ref="addForm" :model="addForm">
         <el-form-item label="id" prop="id">
@@ -344,7 +344,7 @@ export default {
   height: 888px;
 }
 
-.container{
+.container {
   padding: 8px;
 }
 
